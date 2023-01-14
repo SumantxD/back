@@ -5,7 +5,7 @@ const book = require('./Models/book');
 // const dotenv = require('dotenv');
 const app=express();
 mongoose.set('strictQuery', false);
- const hello="mongodb+srv://ishikaback:M1them1tics@cluster0.6wobkbs.mongodb.net/Library?retryWrites=true&w=majority"
+ const hello="mongodb+srv://ishikaback:<password>@cluster0.6wobkbs.mongodb.net/Library?retryWrites=true&w=majority"
 //const app=express();
 mongoose.connect(hello)
     .then(()=>{
